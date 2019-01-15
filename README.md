@@ -112,6 +112,8 @@ Port 23 is constantly listening for telnet connections. There is at least one va
 ```php
 root:$6$msTRRedr$e7Fw3JVflNlRZrIbR1f0qlKLpDnbvd40uyEJEKBIYs04vylb9IrSKU04Ldg56tdR1Qk5YPUeV/8PjFLiUFRVM1
 ```
+Cleartext password is "noty".
+
 
 ### Details - Streaming without authentication
 The previously refered port 9527 also leaks the RTSP credentials. An attacker could use the RTSP service running on the camera on the port 22334/TCP to watch the streaming using those autentification tokens:
